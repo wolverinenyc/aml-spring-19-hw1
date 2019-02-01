@@ -8,3 +8,9 @@ def get_data(x):
     cols = df.columns
     df[cols] = df[cols].apply(pd.to_numeric,errors='coerce')
     return df
+
+def test_get_data():
+    df = get_data('input.txt')
+    print(df.shape)
+
+test_get_data()
