@@ -1,3 +1,4 @@
+import pandas as pd
 from task1_3 import get_data
 
 def test_shape():
