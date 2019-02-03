@@ -57,4 +57,4 @@ plt.figtext(0.5,1.04,'correlates with',fontsize=10,ha='center',color='grey')
 plt.figtext(0.5,0.97,'Films Nicolas Cage appeared in',
             fontsize=16,ha='center', color='k')
 plt.figtext(0.5,0.92,'Correlation: {:.1f}% (r={:.6f})'.format(corr1,corr2),fontsize=10,ha='center',color='grey')
-savefig('nic_cage_films_x_drownings.jpg', bbox_inches='tight')
+savefig('nic_cage_films_x_drownings.png', bbox_inches='tight')
